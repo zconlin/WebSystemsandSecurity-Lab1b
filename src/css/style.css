@@ -42,6 +42,7 @@ nav {
     color: var(--primary-text);				/* Nav bar is white on very dark gray */
     background-color: var(--accent);
     padding: 0.75rem;			  /* Give the nav bar some internal padding */
+	border-radius: 5px;
 }
 
 nav a {
@@ -84,7 +85,7 @@ nav a {
 	display: inline-block;
 	box-sizing: border-box;
 	/* Add property to change delete icon color */
-	/* color: var(--delete); */
+	color: var(--delete);
 }
 
 .material-icon {
@@ -100,7 +101,7 @@ nav a {
 .create-button {
 	background-color: var(--accent);
 	color: var(--primary-text);
-	border-radius: 30px;
+	border-radius: 5px;
 	font-weight: bold;
 	height: 30px;
 }
@@ -134,7 +135,7 @@ input.checkbox-icon:before {
 
 input.checkbox-icon:checked:before {
 	content: 'check_box';
-	color: var(--delete);
+	color: var(--accent);
 
 }
 
