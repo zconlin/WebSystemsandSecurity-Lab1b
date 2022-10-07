@@ -23,6 +23,14 @@ to all elements unless they are overridden. */
 are automatically applied */
 
 
+/* -------------------------------------------------------------------------------
+3 More customizations:
+Color the "done" checkbox #2F4858 and the "delete" button #cd0000.
+Use a custom font in the title <h1>.
+Make the "done" checkbox change colors depending on whether it is checked or not.
+*/ 
+
+
 
 body {
     max-width: 55rem;			  /* Keeps the page from overflowing on wide monitors */
